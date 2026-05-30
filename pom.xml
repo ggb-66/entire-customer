@@ -16,8 +16,8 @@
     </parent>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -75,12 +75,17 @@
 <!--            <groupId>com.jzo2o</groupId>-->
 <!--            <artifactId>jzo2o-es</artifactId>-->
 <!--        </dependency>-->
-        <dependency>
-            <groupId>cn.xiaozhibang</groupId>
-            <artifactId>evaluation-sdk</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
 <!--        <dependency>-->
+<!--            <groupId>cn.xiaozhibang</groupId>-->
+<!--            <artifactId>evaluation-sdk</artifactId>-->
+<!--            <version>1.0-SNAPSHOT</version>-->
+<!--        </dependency>-->
+        <dependency>
+            <groupId>org.springframework.amqp</groupId>
+            <artifactId>spring-rabbit</artifactId>
+            <version>2.4.11</version>
+        </dependency>
+        <!--        <dependency>-->
 <!--            <groupId>com.jzo2o</groupId>-->
 <!--            <artifactId>jzo2o-xxl-job</artifactId>-->
 <!--        </dependency>-->

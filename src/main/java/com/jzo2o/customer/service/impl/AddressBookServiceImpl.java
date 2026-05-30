@@ -52,4 +52,11 @@ public class AddressBookServiceImpl extends ServiceImpl<AddressBookMapper, Addre
         }
         return BeanUtils.copyToList(addressBooks, AddressBookResDTO.class);
     }
+
+    @Override
+    public AddressBook getDefaultAddressBook( ) {
+        AddressBook defaultAdress = lambdaQuery().eq(AddressBook::getIsDefault, 1)
+                .one();
+        return defaultAdress;
+    }
 }

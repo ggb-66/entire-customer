@@ -83,6 +83,7 @@ public class AddressBook implements Serializable {
     /**
      * 是否已删除，0：未删除，1：已删除
      */
+    @TableLogic
     private Integer isDeleted;
 
     /**

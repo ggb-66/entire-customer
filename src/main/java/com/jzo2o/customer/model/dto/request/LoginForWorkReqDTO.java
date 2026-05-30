@@ -4,7 +4,7 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
-@ApiModel("运营人员登录模型")
+@ApiModel(value="运营人员登录模型")
 @Data
 public class LoginForWorkReqDTO {
 

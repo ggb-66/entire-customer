@@ -4,8 +4,9 @@ import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.http.Header;
 import cn.hutool.http.HttpRequest;
 import cn.hutool.json.JSONUtil;
-import cn.xiaozhibang.evaluation.sdk.core.TokenHelper;
-import cn.xiaozhibang.evaluation.sdk.model.domain.CurrentUser;
+//import cn.xiaozhibang.evaluation.sdk.core.TokenHelper;
+//import cn.xiaozhibang.evaluation.sdk.model.domain.CurrentUser;
+
 import com.jzo2o.common.constants.ErrorInfo;
 import com.jzo2o.common.constants.UserType;
 import com.jzo2o.common.expcetions.CommonException;
